@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inhatc.eattoday.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CATEGORY"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnlist" />
+
+    <Button
+        android:id="@+id/btnkorea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="한 식"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="61dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnchina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="중 식"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:layout_below="@+id/btnkorea"
+        android:layout_alignStart="@+id/btnkorea"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btnjapan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일 식"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_alignTop="@+id/btnchina"
+        android:layout_alignStart="@+id/btnchina"
+        android:layout_marginTop="98dp" />
+
+    <Button
+        android:id="@+id/btnlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="결제 내역"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="422dp"
+        android:layout_marginBottom="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
