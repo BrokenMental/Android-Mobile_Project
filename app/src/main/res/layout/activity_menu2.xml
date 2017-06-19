@@ -65,7 +65,7 @@
                 android:layout_width="400px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="김치찌개"
+                android:text="짜장면"
                 android:textSize="14sp" />
 
             <TextView
@@ -89,7 +89,7 @@
                 android:layout_width="400px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="된장찌개" />
+                android:text="짬뽕" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -112,14 +112,14 @@
                 android:layout_width="400px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="불고기" />
+                android:text="볶음밥" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="6,000원"
+                android:text="5,000원"
                 android:textSize="24sp" />
 
         </LinearLayout>
@@ -135,14 +135,14 @@
                 android:layout_width="400px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="갈비찜" />
+                android:text="탕수육" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="8,000원"
+                android:text="14,000원"
                 android:textSize="24sp" />
 
         </LinearLayout>
@@ -158,14 +158,14 @@
                 android:layout_width="400px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="비빕밥" />
+                android:text="군만두" />
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="5,000원"
+                android:text="4,000원"
                 android:textSize="24sp" />
 
         </LinearLayout>

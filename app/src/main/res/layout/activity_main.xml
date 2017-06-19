@@ -14,7 +14,9 @@
         tools:layout_editor_absoluteX="163dp"
         tools:layout_editor_absoluteY="30dp"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/btnlist" />
+        android:layout_alignStart="@+id/btnlist"
+        android:layout_alignEnd="@+id/btnlist"
+        android:textAlignment="center"/>
 
     <Button
         android:id="@+id/btnkorea"

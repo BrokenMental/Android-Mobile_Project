@@ -74,10 +74,10 @@ public class Menu2Activity extends AppCompatActivity implements View.OnClickList
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (buttonView.getId() == R.id.chkMenu3) {
                     if (isChecked) {
-                        Result += 6000;
+                        Result += 5000;
                         txtResult.setText(Result + "원");
                     } else {
-                        Result -= 6000;
+                        Result -= 5000;
                         txtResult.setText(Result + "원");
                     }
                 }
@@ -89,10 +89,10 @@ public class Menu2Activity extends AppCompatActivity implements View.OnClickList
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (buttonView.getId() == R.id.chkMenu4) {
                     if (isChecked) {
-                        Result += 8000;
+                        Result += 14000;
                         txtResult.setText(Result + "원");
                     } else {
-                        Result -= 8000;
+                        Result -= 14000;
                         txtResult.setText(Result + "원");
                     }
                 }
@@ -104,10 +104,10 @@ public class Menu2Activity extends AppCompatActivity implements View.OnClickList
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (buttonView.getId() == R.id.chkMenu5) {
                     if (isChecked) {
-                        Result += 5000;
+                        Result += 4000;
                         txtResult.setText(Result + "원");
                     } else {
-                        Result -= 5000;
+                        Result -= 4000;
                         txtResult.setText(Result + "원");
                     }
                 }
