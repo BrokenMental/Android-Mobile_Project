@@ -26,8 +26,11 @@
             android:name=".Menu3Activity"
             android:label="@string/activity_menu3" />
         <activity
+            android:name=".Menu4Activity"
+            android:label="랜덤"/>
+        <activity
             android:name=".ListActivity"
-            android:label="@string/activity_list"/>
+            android:label="@string/activity_list" />
     </application>
 
 </manifest>

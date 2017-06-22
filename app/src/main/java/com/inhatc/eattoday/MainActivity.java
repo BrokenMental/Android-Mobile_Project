@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnMenu1;
     private Button btnMenu2;
     private Button btnMenu3;
+    private Button btnRandom;
     private Button btnList;
 
     @Override
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnMenu2.setOnClickListener(this);
         btnMenu3 = (Button)findViewById(R.id.btnjapan);
         btnMenu3.setOnClickListener(this);
+        btnRandom = (Button)findViewById(R.id.btnRandom);
+        btnRandom.setOnClickListener(this);
         btnList = (Button)findViewById(R.id.btnlist);
         btnList.setOnClickListener(this);
 
@@ -59,9 +62,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if (v == btnMenu2){
             Intent china = new Intent(MainActivity.this, Menu2Activity.class);
             startActivity(china);
-        }else if (v == btnMenu3){
+        }else if (v == btnMenu3) {
             Intent japan = new Intent(MainActivity.this, Menu3Activity.class);
             startActivity(japan);
+        }else if(v == btnRandom){
+            Intent Random = new Intent(MainActivity.this, Menu4Activity.class);
+            startActivity(Random);
         }else if (v == btnList){
             Intent list = new Intent(MainActivity.this, ListActivity.class);
             startActivity(list);

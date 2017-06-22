@@ -3,5 +3,6 @@
     <string name="activity_menu1">한식</string>
     <string name="activity_menu2">중식</string>
     <string name="activity_menu3">일식</string>
+    <string name="activity_menu4">랜덤</string>
     <string name="activity_list">저장내역</string>
 </resources>

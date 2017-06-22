@@ -25,9 +25,10 @@
         android:text="한 식"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="61dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="116dp"
         android:layout_below="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginEnd="7dp" />
 
     <Button
         android:id="@+id/btnchina"
@@ -36,9 +37,8 @@
         android:text="중 식"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="147dp"
-        android:layout_below="@+id/btnkorea"
-        android:layout_alignStart="@+id/btnkorea"
-        android:layout_marginTop="40dp" />
+        android:layout_alignTop="@+id/btnkorea"
+        android:layout_toEndOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnjapan"
@@ -47,9 +47,18 @@
         android:text="일 식"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="231dp"
-        android:layout_alignTop="@+id/btnchina"
-        android:layout_alignStart="@+id/btnchina"
-        android:layout_marginTop="98dp" />
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/btnkorea"
+        android:layout_alignStart="@+id/btnkorea" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="랜덤 선택"
+        android:layout_alignBaseline="@+id/btnjapan"
+        android:layout_alignBottom="@+id/btnjapan"
+        android:layout_alignStart="@+id/btnchina" />
 
     <Button
         android:id="@+id/btnlist"
@@ -58,7 +67,8 @@
         android:text="결제 내역"
         tools:layout_editor_absoluteX="163dp"
         tools:layout_editor_absoluteY="422dp"
-        android:layout_marginBottom="81dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/btnRandom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp" />
+
 </RelativeLayout>
