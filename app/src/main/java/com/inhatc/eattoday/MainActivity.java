@@ -33,24 +33,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnList.setOnClickListener(this);
 
         myDB = this.openOrCreateDatabase("PayInformation", MODE_PRIVATE, null);
-        //myDB.execSQL("Drop table if exists Paylist");
 
         myDB.execSQL("Create table if not exists Paylist (" +
                 " _id integer primary key autoincrement, " +
                 "Name text not null, " +
                 "Phone text not null, " +
                 "Total text not null);");
-
-        /*myDB.execSQL("Insert into Paylist " +
-                "(Name, Phone, Total) values ('테스트1', '010-0000-1111', '12000원');");
-
-        insertValue = new ContentValues();
-        insertValue.put("Name", "테스트2");
-        insertValue.put("Phone", "010-0000-2222");
-        insertValue.put("Total", "4000원");
-        myDB.insert("Paylist", null, insertValue);*/
-
-        //getDBData(null);
 
         if(myDB != null) myDB.close();
     }
@@ -73,5 +61,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(list);
         }
     }
-
 }
